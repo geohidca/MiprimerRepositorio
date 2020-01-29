@@ -41,11 +41,12 @@ namespace UAM.OOP
 			deporteCR.BaseBall();
 			deporteUSA.BaseBall();
 
+            
+
+
 			Console.ReadKey();
 
-            //hola
-
-            // Segundo hola
+           
 		}
 	}
 }
