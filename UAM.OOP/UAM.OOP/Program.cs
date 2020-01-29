@@ -24,34 +24,24 @@ namespace UAM.OOP
 			//Persona persona1 = new Estudiante();
 			//persona1.Telefono = 1;
 
-			//PersonaDeportesCAbst personaDeportesC = new DeporteCR();
+			PersonaDeportesCAbst personaDeportesC = new DeporteCR();
 
-			//DeporteCR deporteCR = new DeporteCR();
-			//DeporteUSA deporteUSA = new DeporteUSA();
+			DeporteCR deporteCR = new DeporteCR();
+			DeporteUSA deporteUSA = new DeporteUSA();
 
-			//deporteCR.Basket();
-			//deporteUSA.Basket();
+			deporteCR.Basket();
+			deporteUSA.Basket();
 
-			//deporteCR.Futbol();
-			//deporteUSA.Futbol();
+			deporteCR.Futbol();
+			deporteUSA.Futbol();
 
-			//deporteCR.Tennis();
-			//deporteUSA.Tennis();
+			deporteCR.Tennis();
+			deporteUSA.Tennis();
 
-			//deporteCR.BaseBall();
-			//deporteUSA.BaseBall();
+			deporteCR.BaseBall();
+			deporteUSA.BaseBall();
 
-			//Console.ReadKey();
-
-            MyGenericClass<int> myGenericClass = new MyGenericClass<int> (1);
-            myGenericClass.genericMethod(10);
-            MyGenericClass<string> myGenericClass1 = new MyGenericClass<string>("abcd");
-            myGenericClass1.genericMethod("Hola");
-
-            
-
-            Console.ReadKey();
-            //Cambio para Github
+			Console.ReadKey();
 		}
 	}
 }

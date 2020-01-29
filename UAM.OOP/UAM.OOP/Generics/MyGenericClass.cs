@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UAM.OOP
 {
-    public class MyGenericClass<T>
+    class MyGenericClass<T>
     {
         private T genericMemberVariable;
 
@@ -25,7 +25,5 @@ namespace UAM.OOP
 
         public T genericProperty { get; set; }
         public T GenericMemberVariable { get => genericMemberVariable; set => genericMemberVariable = value; }
-
-        //Validar si esto esta en GitHub
     }
 }
