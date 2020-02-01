@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UAM.OOP.Tarea1;
 
 namespace UAM.OOP
 {
@@ -24,26 +25,34 @@ namespace UAM.OOP
 			//Persona persona1 = new Estudiante();
 			//persona1.Telefono = 1;
 
-			PersonaDeportesCAbst personaDeportesC = new DeporteCR();
+			//PersonaDeportesCAbst personaDeportesC = new DeporteCR();
 
-			DeporteCR deporteCR = new DeporteCR();
-			DeporteUSA deporteUSA = new DeporteUSA();
+			//DeporteCR deporteCR = new DeporteCR();
+			//DeporteUSA deporteUSA = new DeporteUSA();
 
-			deporteCR.Basket();
-			deporteUSA.Basket();
+			//deporteCR.Basket();
+			//deporteUSA.Basket();
 
-			deporteCR.Futbol();
-			deporteUSA.Futbol();
+			//deporteCR.Futbol();
+			//deporteUSA.Futbol();
 
-			deporteCR.Tennis();
-			deporteUSA.Tennis();
+			//deporteCR.Tennis();
+			//deporteUSA.Tennis();
 
-			deporteCR.BaseBall();
-			deporteUSA.BaseBall();
-
-            
+			//deporteCR.BaseBall();
+			//deporteUSA.BaseBall();
 
 
+			Equipo equipo = new Equipo();
+			int ID = 01;
+			string Nombre = "Netflix";
+
+			equipo.ID = ID;
+			equipo.Nombre = Nombre;
+
+			string TipoEquipo = equipo.TipoEquipo();
+
+			Console.WriteLine(TipoEquipo);
 			Console.ReadKey();
 
            

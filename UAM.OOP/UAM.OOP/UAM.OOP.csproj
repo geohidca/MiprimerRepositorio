@@ -60,7 +60,6 @@
     <Compile Include="Tarea1\Clase Equipo\Equipo.cs" />
     <Compile Include="Tarea1\Clase Reproductor\Reproductor.cs" />
     <Compile Include="Tarea1\Interface\IReproductores.cs" />
-    <Compile Include="Tarea1\ProgramTarea1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
