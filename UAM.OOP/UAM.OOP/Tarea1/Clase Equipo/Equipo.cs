@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UAM.OOP
 {
-	public class Equipo
+	public class Equipo : Reproductor
 	{
 
         #region Atributos
@@ -15,6 +15,8 @@ namespace UAM.OOP
         #endregion;
 
         #region Propiedades
+        
+        
         public int ID { get => _ID; set => _ID = value; }
         public string Nombre { get => _nombre; set => _nombre = value; }
         #endregion

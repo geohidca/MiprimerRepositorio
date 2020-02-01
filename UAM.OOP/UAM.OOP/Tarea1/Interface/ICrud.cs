@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace UAM.OOP
 {
-    interface IReproductores
+    interface ICrud
     {
-        void play();
-        void stop();
-        void FW();
-        void RW();
+        void insertar();
+        void eliminar();
+        void buscar();
     }
 }

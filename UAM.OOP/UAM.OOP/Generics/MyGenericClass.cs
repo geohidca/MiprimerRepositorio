@@ -9,7 +9,7 @@ namespace UAM.OOP
     class MyGenericClass<T>
     {
         private T genericMemberVariable;
-
+        
         public MyGenericClass(T value)
         {
             genericMemberVariable = value;

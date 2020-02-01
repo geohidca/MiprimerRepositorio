@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UAM.OOP.Tarea1;
+
 
 namespace UAM.OOP
 {
@@ -42,17 +42,15 @@ namespace UAM.OOP
 			//deporteCR.BaseBall();
 			//deporteUSA.BaseBall();
 
+			//-------------------------------TAREA 1 ----------------------------------------
+			Consola consola = new Consola();
+			consola.seleccion();
+			consola.VHS_opcion();
+			consola.DVD_opcion();
+			consola.NetFlix_opcion();
+		
 
-			Equipo equipo = new Equipo();
-			int ID = 01;
-			string Nombre = "Netflix";
 
-			equipo.ID = ID;
-			equipo.Nombre = Nombre;
-
-			string TipoEquipo = equipo.TipoEquipo();
-
-			Console.WriteLine(TipoEquipo);
 			Console.ReadKey();
 
            
