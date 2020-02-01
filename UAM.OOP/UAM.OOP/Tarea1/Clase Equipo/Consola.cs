@@ -8,12 +8,39 @@ namespace UAM.OOP
 {
     public class Consola : Equipo
     {
+        int numero=0;
+        string dispositivo="NADA";
+        string valor = "";
+
         Equipo equipo = new Equipo();
 
+        public void Menu() 
+        {
+            Console.WriteLine("Seleccione el tipo de Reproductor: 1- VHS / 2- DVD / 3- Netflix");
+            dispositivo = Console.ReadLine();
+            numero = int.Parse(dispositivo);
+            if (numero == 1)
+            {
+                dispositivo = "VHS";
+                seleccion();
+                VHS_opcion();
+            } else
+            { if (numero == 2)
+                {
+                    dispositivo = "DVD";
+                    seleccion();
+                    DVD_opcion();
+
+                }
+                dispositivo = "Netflix";
+                seleccion();
+                NetFlix_opcion();
+            }
+        }
         public void  seleccion()
         {
-            equipo.ID = 1;
-            equipo.Nombre = "Hola";
+            equipo.ID = numero;
+            equipo.Nombre = dispositivo;
             String resultado = equipo.TipoEquipo();
             Console.WriteLine(resultado);
             Console.ReadKey();

@@ -44,10 +44,8 @@ namespace UAM.OOP
 
 			//-------------------------------TAREA 1 ----------------------------------------
 			Consola consola = new Consola();
-			consola.seleccion();
-			consola.VHS_opcion();
-			consola.DVD_opcion();
-			consola.NetFlix_opcion();
+			consola.Menu();
+
 		
 
 
