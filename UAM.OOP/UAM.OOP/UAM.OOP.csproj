@@ -61,6 +61,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tarea1\Clase Equipo\Equipo.cs" />
     <Compile Include="Tarea1\Clase Equipo\Consola.cs" />
+    <Compile Include="Tarea1\Clase Generica\Lista.cs" />
     <Compile Include="Tarea1\Clase Reproductor\Reproductor.cs" />
     <Compile Include="Tarea1\Interface\ICrud.cs" />
     <Compile Include="Tarea1\Interface\IReproductores.cs" />

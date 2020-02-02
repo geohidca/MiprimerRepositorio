@@ -45,9 +45,12 @@ namespace UAM.OOP
 			//-------------------------------TAREA 1 ----------------------------------------
 			Consola consola = new Consola();
 			consola.Menu();
+			Console.ReadLine();
+			Lista<int> lista = new Lista<int> ();
+			lista.buscar(123);
+			lista.insertar(34);
+			lista.eliminar(56);
 			Console.ReadKey();
-
-           
 		}
 	}
 }

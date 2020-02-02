@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace UAM.OOP
 {
-    interface ICrud
+    interface ICrud <T>
     {
-        void insertar();
-        void eliminar();
-        void buscar();
+        void insertar(int T);
+        void eliminar(int T);
+        void buscar(int T);
     }
 }
