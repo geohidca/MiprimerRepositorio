@@ -9,8 +9,8 @@ namespace UAM.OOP
     public class Consola : Equipo
     {
         int numero=0;
-        string dispositivo="NADA";
-        string valor = "";
+        string dispositivo=" ";
+        
 
         Equipo equipo = new Equipo();
 
@@ -19,22 +19,38 @@ namespace UAM.OOP
             Console.WriteLine("Seleccione el tipo de Reproductor: 1- VHS / 2- DVD / 3- Netflix");
             dispositivo = Console.ReadLine();
             numero = int.Parse(dispositivo);
-            if (numero == 1)
+            if (numero > 3)
             {
-                dispositivo = "VHS";
-                seleccion();
-                VHS_opcion();
-            } else
-            { if (numero == 2)
+                Console.WriteLine("Digito un numero incorrecto");
+            }
+            else
+            {
+                if (numero == 1)
                 {
-                    dispositivo = "DVD";
+                    dispositivo = "VHS";
                     seleccion();
-                    DVD_opcion();
+                    VHS_opcion();
+                }
+                else
+                {
+                    if (numero == 2)
+                    {
+                        dispositivo = "DVD";
+                        seleccion();
+                        DVD_opcion();
+
+                    }
+                    else
+                    {
+                        if (numero == 3)
+                        {
+                            dispositivo = "Netflix";
+                            seleccion();
+                            NetFlix_opcion();
+                        }
+                    }
 
                 }
-                dispositivo = "Netflix";
-                seleccion();
-                NetFlix_opcion();
             }
         }
         public void  seleccion()

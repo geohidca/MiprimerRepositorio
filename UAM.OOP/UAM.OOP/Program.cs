@@ -45,10 +45,6 @@ namespace UAM.OOP
 			//-------------------------------TAREA 1 ----------------------------------------
 			Consola consola = new Consola();
 			consola.Menu();
-
-		
-
-
 			Console.ReadKey();
 
            
